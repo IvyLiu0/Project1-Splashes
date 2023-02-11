@@ -109,6 +109,34 @@
     color: #fff
 }
 
+.navbar-toggler{
+    width: 50px;
+    height: 50px;
+    border:none;
+}
+
+.navbar-toggler .line1{
+    width: 80%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.navbar-toggler .line2{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.navbar-toggler .line3{
+    width: 50%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+}
 
 /* Locations dropdown*/
 .locations{
@@ -317,6 +345,11 @@ footer li a{
    .footerContact {
     text-align: center;
     font-family: OpenSans-Regular;
+   }
+
+   .footRow {
+    margin-left: 200px;
+    margin-right: 200px;
    }
 
 @media(max-width: 1199px) {
