@@ -68,7 +68,7 @@
 }
 
 .img-fluid {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .main-menu .nav-button{
@@ -100,25 +100,25 @@
     color: #03B1F4 !important;
 }
 
-.main-menu ul li.active{
+.main-menu ul li:active{
     background: #03B1F4 !important;
     border: none;
 }
 
-.main-menu ul li.active a{
+.main-menu ul li:active a{
     color: #fff
 }
 
 .navbar-toggler{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border:none;
 }
 
 .navbar-toggler .line1{
     width: 80%;
     float: left;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
     margin-bottom: 8px;
 }
@@ -126,7 +126,7 @@
 .navbar-toggler .line2{
     width: 100%;
     float: left;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
     margin-bottom: 8px;
 }
@@ -134,9 +134,32 @@
 .navbar-toggler .line3{
     width: 50%;
     float: left;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .line1, 
+.navbar-toggler[aria-expanded="true"] .line2 {
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: orange;
+    margin-bottom: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .line3 {
+    width: 100%;
+    float: left;
+    height: 3px;
+    background-color: orange;
+}
+
 
 /* Locations dropdown*/
 .locations{
@@ -348,8 +371,8 @@ footer li a{
    }
 
    .footRow {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
    }
 
 @media(max-width: 1199px) {
