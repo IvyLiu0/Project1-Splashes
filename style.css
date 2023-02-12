@@ -97,11 +97,11 @@
     color: #ffff;
 }
 .main-menu ul li a:hover{
-    color: #03B1F4 !important;
+    color: orange !important;
 }
 
 .main-menu ul li:active{
-    background: #03B1F4 !important;
+    color: orange !important;
     border: none;
 }
 
