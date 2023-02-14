@@ -244,6 +244,33 @@
 }
 
 
+/* Award */
+.awardText {
+    margin-top: 100px;
+}
+
+.awardText h1{
+    text-align: center;
+    font-family: BodoniModa;
+    font-weight: 1000;
+    font-size: 50px;
+    color: #444;
+}
+
+.award {
+    display: inline;
+    text-align: center;
+    padding: 3px 0;
+}
+
+#awards {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* margin-left: 300px; */
+    /* margin-right: 300px; */
+}
+
 /* Footer */
 footer {
     background: no-repeat url(images/footer-bg.jpeg);
