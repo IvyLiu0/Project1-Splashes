@@ -103,7 +103,7 @@
                         <a class="nav-link text-white" href="#">Contact Us</a>
                     </li>
                 </ul>
-                    <button class="nav-button"><a href="#">Register / Sign in</a></button>
+                    <button class="nav-button" onclick="window.location.href = 'signin.html';"><a href="#">Register / Sign in</a></button>
            </div>
         </nav>
      </div>
@@ -111,13 +111,13 @@
 
     <main>
             <div class="homeBabyImage">
-                <!-- <div class="row">
+                <div class="homeBabyText">
                     <h1>Learning it the Right Way, <br>Right from the Beginning</h1>
                 </div>
-                <div class="row">  
-                    <button class="col-12 col-sm-6 videoBtn">Information Video</button>
-                    <button class="col-12 col-sm-6 videoBtn">Swimvenger Video</button>
-                </div>  -->
+                <div class="d-grid gap-2 col-xs-6 mx-auto videoBtns">  
+                    <button class="btn videoBtn"  type="button">Information Video</button>
+                    <button class="btn videoBtn"  type="button">Swimvenger Video</button>
+                </div> 
             </div>
 
             <div class="row">
@@ -188,7 +188,7 @@
 <footer>
     <div>
         <div class="footerImage">
-            <img src="images/wave-small.png" alt="splash wave" width="300">
+            <img class="img-fluid" src="images/wave-small.png" alt="splash wave" width="300">
         </div>
         <div class="row">
             <div class="col-12 col-lg-7 footerNav">
