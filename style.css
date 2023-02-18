@@ -435,9 +435,9 @@
     text-align: center;
 }
 
-.locationText button {
+/* .locationText button {
   margin-left: 130px;
-}
+} */
 
 .locationBtn {
     font-family:OpenSans-Semibold;
@@ -682,6 +682,11 @@ footer li a{
         font-size: 15px;
         border-radius: 50px;
         border-color: #03B1F4;
+    }
+
+    .teachingText {
+        margin: 10px;
+        border:1px solid red;
     }
 }
 
