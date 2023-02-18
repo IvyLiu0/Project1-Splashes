@@ -339,17 +339,61 @@
 
 .teachingImage {
     background: no-repeat url(images/home-hands-on-teaching.jpeg);
-    min-height: 550px;
+    min-height: 600px;
     height: auto;
     width: 100%;
-    background-position: center;
     margin-top: 30px;
+    background-size: cover;
 }
 
 .teachingText {
     float: left;
+    padding-top:35px;
     padding-left: 200px;
-    font-family: OpenSans-Regular;
+    width: 600px;
+}
+
+.teachingText h2 {
+    font-family: BodoniModa;
+    font-weight: 800;
+}
+
+.teachingText p {
+    font-family:OpenSans-Regular;
+    font-size:small;
+    margin-top: 20px;
+}
+
+.teachingText h3 {
+    font-family:OpenSans-bold;
+    font-size: small;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.teachingText ul {
+    font-family:OpenSans-regular;
+    font-size: small;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.teachingText span {
+    font-family:OpenSans-regular;
+    font-size: small;
+}
+
+.teachingBtn {
+    font-family:OpenSans-Semibold;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: #03B1F4;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 10px;
+    border-radius: 50px;
+    border: none;
 }
 
 .locationImage {
@@ -359,12 +403,53 @@
     height: auto;
     width: 100%;
     margin-left: 1px;
+    background-size: cover;
 }
 
 .locationText {
-    color: #FFFFFF;
+    /* float: left; */
+    padding: 0px 150px;
+    color: white;
+}
+
+.locationText h2 {
+    font-family: BodoniModa;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 100px;
     text-align: center;
-    font-family: OpenSans-Regular;
+}
+
+.locationText h3{
+    font-family:BodoniModa;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.locationText p{
+    font-family:OpenSans-regular;
+    font-size: medium;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.locationText button {
+  margin-left: 130px;
+}
+
+.locationBtn {
+    font-family:OpenSans-Semibold;
+    font-size: small;
+    margin-top: 20px;
+    background-color: #03B1F4;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 10px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 80px;
 }
 
 
@@ -558,6 +643,14 @@ footer li a{
         margin-left: 30px;
         margin-right: 30px;
        }
+
+    .teachingImage {
+        background-image: none;
+    }
+
+    .locationMap img {
+        display: none;
+    }
 }
 
 @media (min-width:1200px) {
