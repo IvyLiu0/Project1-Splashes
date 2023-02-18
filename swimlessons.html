@@ -15,17 +15,163 @@
 <title>Swim Lessons</title>
 </head>
 
-<section id="swimlessons">
-<header class="container-fluid">
-<h1>Which Lesson Is Best?</h1>
-</header>
-<body>
+<header class="sticky-top">
+    <div class="main-header">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark main-menu">
+            <a class="navbar-brand" href="home.html"><img class="img-fluid" src="images/logo-small.png" alt="Splashes Logo" width="350"></a>
 
+                    <!-- Hamburger Menu -->
+                    <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
+                    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" 
+                    data-target = "#navbarContent" 
+                    aria-controls = "navbarContent" aria-expanded = "false" 
+                    aria-label = "Toggle navigation">        
+                        <span class="line1"></span> 
+                        <span class="line2"></span> 
+                        <span class="line3"></span>
+                    </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Swimming Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Swim Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Adult Programs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locations</a>
+                            <div class = "dropdown-menu grid_system" aria-labelledby = "navbarDropdownMenuLink">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">Orange County</p>
+                                        <p class="places">Anaheim Hills @ LA Fitness</p>
+                                        <p class="places">Huntington Beach</p>
+                                        <p class="places">Irvine</p>
+                                        <p class="places">Yorba Linda @ LA Fitness</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4 ">
+                                        <p class="county">San Gabriel Valley</p>
+                                        <p class="places">Alhambra-Fremont @ LA Fitness</p>
+                                        <p class="places">Arcadia @ LA Fitness</p>
+                                        <p class="places">Diamond Bar @ LA Fitness</p>
+                                        <p class="places">Pasadena</p>
+                                        <p class="places">West Covina @ LA Fitness</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">Silicon Valley</p>
+                                        <p class="places">North San Jose @ City Sports Club</p>
+                                        <p class="places">San Jose-Almaden @ City Sports Club</p>
+                                        <p class="places">San Jose-Bascom</p>
+                                        <p class="places">San Jose-Blossom Hill @ City Sports Club</p>
+                                        <p class="places">Sunnyvale @ City Sports Club</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">San Diego County</p>
+                                        <p class="places">Carlsbad</p>
+                                        <p class="places">Poway @ LA Fitness</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">Los Angeles County</p>
+                                        <p class="places">Culver City @ LA Fitness</p>
+                                        <p class="places">Harbor @ LA Fitness</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">Alameda County</p>
+                                        <p class="places">Hayward @ City Sports Club</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-8">
+                                        <p class="county">San Francisco</p>
+                                        <p class="places">San Francisco-20th Avenue @ City Sports Club</p>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                                        <p class="county">Denver</p>
+                                        <p class="places">Highlands Ranch</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- <button class="nav-button" onclick="window.location.href = 'signin.html';"><a href="#">Register / Sign in</a></button> -->
+                <!-- Button trigger modal -->
+                <button class="nav-button" type="button" data-toggle="modal" data-target="#signInModal">Register / Sign in</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="signInModal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="signInPage" aria-hidden="true">
+                    <!--Logo--> 
+                    <div class="signinLogo">
+                        <img class="img-fluid" src="images/splash-wave.png" alt="splash wave" width="280">
+                    </div>
+                    <!--Modal Begin--> 
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content shadow">
+                            <div>
+                                <img class="singinImage" src="images/shark-full.png" alt="shark full" width="150px">
+                                </div>
+
+                                <div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            <!--Modal Header-->   
+                            <div class="modal-header">
+                                <div class="modal-title" id="signInPage">
+                                    <h2>SIGN IN</h2>
+                                </div>
+                            </div>
+                                
+                           <!--Modal Body--> 
+                            <div class="modal-body">
+                                <div class="emailPhone">
+                                    <label for="email">Email *</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="emailPhone">
+                                    <label for="pwd">Password *</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="formForgot">Forgot Password?</div>
+                            </div>
+
+                            <!--Modal Footer--> 
+                            <div class="modal-footer">
+                                <button class="btn signInBtn" type="submit">Sign In</button>
+                                <button class="btn signUpBtn" type="submit">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+
+<section id="swimlessons">
+
+<div class="container-fluid swimlesson-head">
+<h1>Which Lesson Is Best?</h1>
+</div>
+
+
+<body>
+    <div class="container lesson-type-box">   
+        <h1 id="secondary-title">Our Lesson Types</h1>
+        </div>
+            
 <section id="paragraphes">
 
-<div class="container lesson-type-box">   
-<h1 class="secondary-title">Our Lesson Types</h1>
-</div>
+
 
 <h3 class="fs-4">Private Swim Lessons</h3>
 <p>Our <span class="link">private swim lessons</span> provide one-on-one instruction for students ages three months through adult. Private swim lessons are the best option for accelerated learning. Each lesson will allow
@@ -64,6 +210,15 @@ the time comes for them to work on speed. Our stroke clinics are exciting and fa
 
 <p class="link">Learn more here!</p>
 </section>
+
+ <!-- Bootstrap jQuery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <!-- Bootstrap Popper -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 </body>
 </section>
 </html>
