@@ -1,0 +1,97 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*ONLY ADULT*/
+.adultSwimmer {
+  background: no-repeat url(images/lap-swimming.jpeg);
+  min-height: 600px;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.adultProgram_heading {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  font-family: BodoniModa;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+.adultProgram_body {
+  font-family: OpenSans-Regular;
+  font-size: small;
+  position: relative;
+  margin: 0 50px 0 50px;
+}
+.adulth1 {
+  text-align: center;
+  font-family: BodoniModa;
+  font-weight: bold;
+  font-size: 48px;
+}
+span p {
+  font-family: OpenSans-Semibold;
+  font-weight: bolder;
+}
+span ul {
+  padding: 0px;
+}
+li {
+  list-style: none;
+  text-decoration: underline;
+}
+li a {
+  color: #03b1f4;
+}
+/*ONLY ADULT*/
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*ONLY lOCATIONS*/
+.locationsback {
+  background: no-repeat url(images/contact-hero.jpeg);
+  min-height: 600px;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+}
+.locationsheading {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  font-family: BodoniModa;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+.locations {
+  position: relative;
+  align-items: center;
+}
+.locationsParagraph {
+  text-align: center;
+  font-family: OpenSans-Regular;
+  font-size: small;
+}
+
+
+.contactGallery {
+  padding-left: 10px;
+}
+.contactGallery a {
+  color: #03b1f4;
+  text-decoration: underline;
+}
+.contactrow {
+  margin: 100px 0px 30px 0px;
+}
+.cuadrados {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 2px 2px rgba(187, 185, 185, 0.3);
+}
+.center-col {
+  justify-content: center;
+  text-align: center;
+}

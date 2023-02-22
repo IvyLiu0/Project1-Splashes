@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link href="style-f.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+
+
+    <title>Contact</title>
+  </head>
+  <body id="home">
+    <header class="sticky-top">
+      <div class="main-header">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark main-menu">
+          <a class="navbar-brand" href="home.html"
+            ><img
+              class="img-fluid"
+              src="images/logo-small.png"
+              alt="Splashes Logo"
+              width="350"
+          /></a>
+
+
+          <!-- Hamburger Menu -->
+          <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="nav navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="swimlessons.html">Swimming Lessons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="swimprograms.html">Swim Programs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="adultprograms.html">Adult Programs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Locations</a
+                >
+                <div
+                  class="dropdown-menu grid_system"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <div class="row">
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">Orange County</p>
+                      <p class="places">Anaheim Hills @ LA Fitness</p>
+                      <p class="places">Huntington Beach</p>
+                      <p class="places">Irvine</p>
+                      <p class="places">Yorba Linda @ LA Fitness</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">San Gabriel Valley</p>
+                      <p class="places">Alhambra-Fremont @ LA Fitness</p>
+                      <p class="places">Arcadia @ LA Fitness</p>
+                      <p class="places">Diamond Bar @ LA Fitness</p>
+                      <p class="places">Pasadena</p>
+                      <p class="places">West Covina @ LA Fitness</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">Silicon Valley</p>
+                      <p class="places">North San Jose @ City Sports Club</p>
+                      <p class="places">San Jose-Almaden @ City Sports Club</p>
+                      <p class="places">San Jose-Bascom</p>
+                      <p class="places">
+                        San Jose-Blossom Hill @ City Sports Club
+                      </p>
+                      <p class="places">Sunnyvale @ City Sports Club</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">San Diego County</p>
+                      <p class="places">Carlsbad</p>
+                      <p class="places">Poway @ LA Fitness</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">Los Angeles County</p>
+                      <p class="places">Culver City @ LA Fitness</p>
+                      <p class="places">Harbor @ LA Fitness</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">Alameda County</p>
+                      <p class="places">Hayward @ City Sports Club</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-8">
+                      <p class="county">San Francisco</p>
+                      <p class="places">
+                        San Francisco-20th Avenue @ City Sports Club
+                      </p>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 col-xl-4">
+                      <p class="county">Denver</p>
+                      <p class="places">Highlands Ranch</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- <button class="nav-button" onclick="window.location.href = 'signin.html';"><a href="#">Register / Sign in</a></button> -->
+            <!-- Button trigger modal -->
+            <button
+              class="nav-button"
+              type="button"
+              data-toggle="modal"
+              data-target="#signInModal"
+            >
+              Register / Sign in
+            </button>
+
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="signInModal"
+              data-backdrop="static"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="signInPage"
+              aria-hidden="true"
+            >
+              <!--Logo-->
+              <div class="signinLogo">
+                <img
+                  class="img-fluid"
+                  src="images/splash-wave.png"
+                  alt="splash wave"
+                  width="280"
+                />
+              </div>
+              <!--Modal Begin-->
+              <div class="modal-dialog" role="document">
+                <div class="modal-content shadow">
+                  <div>
+                    <img
+                      class="singinImage"
+                      src="images/shark-full.png"
+                      alt="shark full"
+                      width="150px"
+                    />
+                  </div>
+
+
+                  <div>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <!--Modal Header-->
+                  <div class="modal-header">
+                    <div class="modal-title" id="signInPage">
+                      <h2>SIGN IN</h2>
+                    </div>
+                  </div>
+
+
+                  <!--Modal Body-->
+                  <div class="modal-body">
+                    <div class="emailPhone">
+                      <label for="email">Email *</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                    <div class="emailPhone">
+                      <label for="pwd">Password *</label>
+                      <input type="password" class="form-control" />
+                    </div>
+                    <div class="formForgot">Forgot Password?</div>
+                  </div>
+
+
+                  <!--Modal Footer-->
+                  <div class="modal-footer">
+                    <button class="btn signInBtn" type="submit">Sign In</button>
+                    <button class="btn signUpBtn" type="submit">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="locationsback">
+      <!-- <div class="row">
+                  <h1>Learning it the Right Way, <br>Right from the Beginning</h1>
+              </div>
+              <div class="row">  
+                  <button class="col-12 col-sm-6 videoBtn">Information Video</button>
+                  <button class="col-12 col-sm-6 videoBtn">Swimvenger Video</button>
+              </div>  -->
+    </div>
+    <p class="locationsheading">Contact Us</p>
+    <div class="locations">
+      <br /><br />
+      <p class="locationsParagraph">
+        We'd love to help. Send us an email using one of the bottoms below and
+        <br />
+        representative will get back to you as soon as posible
+      </p>
+    </div>
+
+
+    <!--Images-->
+    <div class="contactGallery">
+      <div class="row contactrow">
+
+
+        <div class="col-xl-4 col-sm-4"></div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/question.svg"
+            alt="question"
+          /><br /><br /><a href="">New Costumers Inquires</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/party-coordinator-form.svg"
+            alt="question"
+          /><br /><br /><a href="">Contact Party Cordinarion</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/concern.svg"
+            alt="question"
+          /><br /><br /><a href="">Voice a Concern</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/swimming-pool.svg"
+            alt="question"
+          /><br /><br /><a href="">Pool Rental</a>
+        </div>
+
+
+        <div class="col-xl-4 col-sm-4"></div>
+      </div>
+      <div class="row contactrow">
+
+
+        <div class="col-xl-4 col-sm-4"></div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/suggestion.svg"
+            alt="question"
+          /><br /><br /><a href="">Give a Suggestion</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/compliment.svg"
+            alt="question"
+          /><br /><br /><a href="">Share a Compliment</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/form.svg"
+            alt="question"
+          /><br /><br /><a href="">Water Safety Presentation Inquiry</a>
+        </div>
+
+
+        <div class="col-xl-1 col-sm-1 col-12 center-col">
+          <img
+            class="cuadrados"
+            src="images/icon-buttons/baby.svg"
+            alt="question"
+          /><br /><br /><a href="">Parent & Me Lesson Interes</a>
+        </div>
+
+
+        <div class="col-xl-4 col-sm-4"></div>
+
+
+      </div>
+    </div>
+   
+
+
+    <footer>
+      <div>
+        <div class="footerImage">
+          <img
+            class="img-fluid"
+            src="images/wave-small.png"
+            alt="splash wave"
+            width="300"
+          />
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-7 footerNav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Register / Sign in</a></li>
+            <li><a href="#">Careers</a></li>
+          </div>
+          <div class="col-12 col-lg-5 social">
+            <i class="fa fa-linkedin circle"></i>
+            <i class="fa fa-instagram circle"></i>
+            <i class="fa fa-twitter circle"></i>
+            <i class="fa fa-yelp circle"></i>
+            <i class="fa fa-facebook circle"></i>
+            <i class="fa fa-youtube-play circle"></i>
+          </div>
+        </div>
+        <hr class="longLine" />
+ 
+        <div class="row align-items-center no-gutters footRow">
+          <!-- <div class="col-xl-1"></div> -->
+          <div class="col-xl footerContact">
+            <p class="footerCounty">Orange County</p>
+            <p class="footerPhone">(949)450-0777</p>
+          </div>
+          <div class="col-xl footerContact">
+            <p class="footerCounty">San Diego County</p>
+            <p class="footerPhone">(760)603-9400</p>
+          </div>
+          <div class="col-xl footerContact">
+            <p class="footerCounty">Los Angeles County</p>
+            <p class="footerPhone">(626)836-1200</p>
+          </div>
+          <div class="col-xl footerContact">
+            <p class="footerCounty">Orange County</p>
+            <p class="footerPhone">(408)279-1700</p>
+          </div>
+          <div class="col-xl footerContact">
+            <p class="footerCounty">Denver</p>
+            <p class="footerPhone">(720)344-7700</p>
+          </div>
+          <!-- <div class="col-xl-1"></div> -->
+        </div>
+        <hr class="longLine" />
+ 
+        <div class="row">
+          <div id="footerNav" class="col-12 col-lg-7 footerNav">
+            <!-- <img src="images/sponsors/sponsor1.png">
+                      <img src="images/sponsors/sponsor2.png">
+                      <img src="images/sponsors/sponsor3.png">
+                      <img src="images/sponsors/sponsor4.png"> -->
+          </div>
+          <div class="col-12 col-lg-5 copy">
+            <p>&copy; 2022 Splashes.</p>
+            <p>All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+ 
+    <!-- Bootstrap jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+    <script src="js/sponsors.js"></script>
+  </html>
