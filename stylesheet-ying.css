@@ -1,445 +1,427 @@
-
 /*About Page*/
-.about-head{
-    background-image: url("images/about-us-hero.jpeg");
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position:relative;
-    /* overflow:hidden; */
-    height: 100%;
-    /* padding-top: 12%; */
-    /* margin:0 10px; */
-    text-align: center;
-    color:rgb(235, 228, 228);
+.about-head {
+  background-image: url("images/about-us-hero.jpeg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  /* overflow:hidden; */
+  height: 100%;
+  /* padding-top: 12%; */
+  /* margin:0 10px; */
+  text-align: center;
+  color: rgb(235, 228, 228);
 }
 
-.aboutText{
-    padding-top: 15%;
-    padding-bottom: 15%;
-    font-family: 'Bodoni Moda', serif;
-    color: #fff;
-}
- 
-.goodjob{
-    background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");   
-}
-    
-.philosophy{
-    background-image: url("images/about-our-philosophy-bg.jpeg");
-   }
-
-
-.philosophy,.goodjob{
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow:hidden;
-    height: 100%;
-    min-height: 500px;
-    padding-top: 12%;
-    margin:0 10px;
-    text-align: center;
-    color:#444444;
-    
+.aboutText {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  font-family: "Bodoni Moda", serif;
+  color: #fff;
 }
 
-
-h1{
-    font-family: 'Bodoni Moda', serif;
+.goodjob {
+  background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");
 }
 
-.philosophy p, .philosophy h1, .goodjob p, .goodjob h1{
-    width: 60%;
-    margin: 0 auto 3% auto;
-    padding: 10px;
-
+.philosophy {
+  background-image: url("images/about-our-philosophy-bg.jpeg");
 }
 
-.goodjob div{
-    margin-top:7%;
-    margin-bottom:7%;
-    text-align: center;
+.philosophy,
+.goodjob {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+  min-height: 500px;
+  padding-top: 12%;
+  margin: 0 10px;
+  text-align: center;
+  color: #444444;
 }
 
-#about p{
- color: #757576;
+h1 {
+  font-family: "Bodoni Moda", serif;
+}
+
+.philosophy p,
+.philosophy h1,
+.goodjob p,
+.goodjob h1 {
+  width: 60%;
+  margin: 0 auto 3% auto;
+  padding: 10px;
+}
+
+.goodjob div {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+#about p {
+  color: #757576;
 }
 
 /*Swim Lessons Page*/
-.swimlesson-head{
-    background-image: url("images/which-lesson-is-best.jpeg");
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position:relative;
-    /* overflow:hidden; */
-    height: 100%;
-    /* padding-top: 12%; */
-    /* margin:0 10px; */
-    text-align: center;
-    color:rgb(235, 228, 228);
+.swimlesson-head {
+  background-image: url("images/which-lesson-is-best.jpeg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  /* overflow:hidden; */
+  height: 100%;
+  /* padding-top: 12%; */
+  /* margin:0 10px; */
+  text-align: center;
+  color: rgb(235, 228, 228);
 }
 
-
-
-.secondary-title{
-    color:rgb(46, 45, 45);
+.secondary-title {
+  color: rgb(46, 45, 45);
 }
 
-.lesson-type-box{
-    margin-top: -4%;
-    text-align: center;
-    margin-bottom: 3%;
+.lesson-type-box {
+  margin-top: -4%;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
-#swimlessons section, #swimprograms section{
-    margin:0 5%;
-   
+#swimlessons section,
+#swimprograms section {
+  margin: 0 5%;
 }
 
-#swimlessons h3{
-    margin-top:5%;
+#swimlessons h3 {
+  margin-top: 5%;
 }
 
-.link{
-    text-decoration: underline;
-    color:#03B1F4;
+.link {
+  text-decoration: underline;
+  color: #03b1f4;
 }
 
-.link:hover{
-    cursor:pointer;
+.link:hover {
+  cursor: pointer;
 }
-
-
 
 /*Swim Programs Page*/
 
-.swimprogram-head{
-    background-image: url('images/summer-swim-camps.jpeg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    overflow:hidden;
-    height: 100%;
-    color:white;
-    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
-    text-align: center;
-
-
+.swimprogram-head {
+  background-image: url("images/summer-swim-camps.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+  color: white;
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+  text-align: center;
 }
 
-
-.swimprogram-head h1{
-    padding-top: 15%;
-    padding-bottom: 15%;
+.swimprogram-head h1 {
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
-#swimprograms h5{
-    margin-bottom:5%;
+#swimprograms h5 {
+  margin-bottom: 5%;
 }
 
-li{
-    list-style: none;
-    margin:1%;
-    
+li {
+  list-style: none;
+  margin: 1%;
 }
 
 /*sign in modal*/
-@media (max-width:768px) {
-    .signInBtn {
-        background-color: #03b0f473;
-        color: #fff;
-        font-weight: bold;
-        padding: 10px 203px;
-        line-height: 12px;
-        font-size: 15px;
-        border-radius: 50px;
-        /* border-color: #03B1F4; */
-    }
-    
-    .signUpBtn {
-        background-color: rgb(255, 255, 255);
-        color: #03B1F4;
-        font-weight: bold;
-        padding: 10px 200px;
-        line-height: 12px;
-        font-size: 15px;
-        border-radius: 50px;
-        border-color: #03B1F4;
-    }
-}
-
-.signinLogo {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.singinImage {
-    position:absolute;
-    margin-left: -82px;
-    margin-top: -30px;
-    
-}
-
-.modal-title h2 {
-    font-family: OpenSans-Semibold ;
-    color: #444;
-    /* text-align: center !important; */
-    margin-top: 10px;
-    /* margin-left: 150px; */
-}
-
-.modal-title {
-    margin: 0 auto;
-}
-
-.close {
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.emailPhone label{
-    color: rgb(212, 0, 0);
-    font-family: OpenSans-Regular;
-    font-size:medium;
-    margin-top: 10px;
-    margin-bottom: -5px;
-}
-
-.emailPhone {
-    margin: 0 10px;
-}
-
-.emailPhone input {
-    background-color: rgb(240, 240, 240);
-    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
-}
-
-.formForgot {
-    color: #03B1F4;
-    font-family: OpenSans-Regular;
-    font-size: 12px;
-    margin-top: 15px;
-    margin-right:15px;
-    float: right;
-    text-decoration: underline;
-}
-
-.signBtns {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.signInBtn {
+@media (max-width: 768px) {
+  .signInBtn {
     background-color: #03b0f473;
     color: #fff;
     font-weight: bold;
-    padding: 10px 85px;
-    margin-right: 5px;
+    padding: 10px 203px;
     line-height: 12px;
     font-size: 15px;
     border-radius: 50px;
     /* border-color: #03B1F4; */
-}
+  }
 
-.signUpBtn {
+  .signUpBtn {
     background-color: rgb(255, 255, 255);
-    color: #03B1F4;
+    color: #03b1f4;
     font-weight: bold;
-    padding: 10px 85px;
-    margin-left: 5px;
+    padding: 10px 200px;
     line-height: 12px;
     font-size: 15px;
     border-radius: 50px;
-    border-color: #03B1F4;
+    border-color: #03b1f4;
+  }
 }
 
-.signInBtn:hover{
-    color: #0077b5;
+.signinLogo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.signUpBtn:hover{
-    color: #0077b5;
+.singinImage {
+  position: absolute;
+  margin-left: -82px;
+  margin-top: -30px;
+}
+
+.modal-title h2 {
+  font-family: OpenSans-Semibold;
+  color: #444;
+  /* text-align: center !important; */
+  margin-top: 10px;
+  /* margin-left: 150px; */
+}
+
+.modal-title {
+  margin: 0 auto;
+}
+
+.close {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.emailPhone label {
+  color: rgb(212, 0, 0);
+  font-family: OpenSans-Regular;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.emailPhone {
+  margin: 0 10px;
+}
+
+.emailPhone input {
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.formForgot {
+  color: #03b1f4;
+  font-family: OpenSans-Regular;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+  text-decoration: underline;
+}
+
+.signBtns {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.signInBtn {
+  background-color: #03b0f473;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 85px;
+  margin-right: 5px;
+  line-height: 12px;
+  font-size: 15px;
+  border-radius: 50px;
+  /* border-color: #03B1F4; */
+}
+
+.signUpBtn {
+  background-color: rgb(255, 255, 255);
+  color: #03b1f4;
+  font-weight: bold;
+  padding: 10px 85px;
+  margin-left: 5px;
+  line-height: 12px;
+  font-size: 15px;
+  border-radius: 50px;
+  border-color: #03b1f4;
+}
+
+.signInBtn:hover {
+  color: #0077b5;
+}
+
+.signUpBtn:hover {
+  color: #0077b5;
 }
 
 .modal-backdrop {
-    display: none;
+  display: none;
 }
 
 .modal {
-    background: white;
+  background: white;
 }
 
 .modal-header {
-    border-bottom: 0 none;
+  border-bottom: 0 none;
 }
 
 .modal-footer {
-    border-top: 0 none;
+  border-top: 0 none;
 }
 
-.main-menu .nav-button{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    line-height: 30px;
-    width: 95%;
-    font-size: 18px;
-    border-radius: 30px;
-    border: none;
-    background-color: #fff;
+.main-menu .nav-button {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  line-height: 30px;
+  width: 95%;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  font-family: OpenSans-Semibold;
+  color: #03b1f4;
+}
+
+@media (max-width: 1199px) {
+  .main-menu ul li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
     font-family: OpenSans-Semibold;
-    color: #03B1F4;
+  }
 }
-
-@media(max-width: 1199px) {
-    .main-menu ul li {
-        display: inline;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 20px;
-        font-weight: bold;
-        color: #fff;
-        font-family: OpenSans-Semibold;
-    }
-}
-
-
 
 /* Footer */
 footer {
-    background: no-repeat url(images/footer-bg.jpeg);
-    min-height: 500px;
-    height: auto;
-    width: 100%;
-    background-position: top;
-    position:center;
-    background-size: cover; 
+  background: no-repeat url(images/footer-bg.jpeg);
+  min-height: 500px;
+  height: auto;
+  width: 100%;
+  background-position: top;
+  position: center;
+  background-size: cover;
 }
 
 .footerImage {
-    text-align: center;
-    padding-top: 70px;
+  text-align: center;
+  padding-top: 70px;
 }
 
 .footerNav {
-    text-align: center;
-    margin-top: 30px;
-    float: left;
-    font-family: OpenSans-Semibold;
+  text-align: center;
+  margin-top: 30px;
+  float: left;
+  font-family: OpenSans-Semibold;
 }
 
 .social {
-    text-align: center;
-    margin-top: 30px;
-    float: right;
+  text-align: center;
+  margin-top: 30px;
+  float: right;
 }
 
 .copy {
-    text-align: center;
-    margin-top: 40px;
-    float: right;
-    font-family: OpenSans-Regular;
+  text-align: center;
+  margin-top: 40px;
+  float: right;
+  font-family: OpenSans-Regular;
 }
 
 .copy p {
-    font-size: small;
-    font-family: OpenSans-Regular;
+  font-size: small;
+  font-family: OpenSans-Regular;
 }
 
 .copy p:last-child {
-    margin-top: -15px;
+  margin-top: -15px;
 }
 
 footer li {
-    display: inline;
-    padding-left: 10px;
+  display: inline;
+  padding-left: 10px;
 }
 
-footer li a{
-    color: black;
-    text-decoration: underline;
-    font-weight: bold;
-    font-size:small;
-    color: #444;
-    font-family: OpenSans-Semibold;
+footer li a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: small;
+  color: #444;
+  font-family: OpenSans-Semibold;
 }
 
-.circle{
-	border-radius: 50%;
-	margin: 0.15em;
-	font-size: 1.5em;
-	}
-	
-.fa-linkedin{
-	background: #0077b5;
-	color: #FFFFFF;
-    padding: 0.2em 0.3em;
-	}
+.circle {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 1.5em;
+}
 
-.fa-instagram{
-  color: #FFFFFF;
+.fa-linkedin {
+  background: #0077b5;
+  color: #ffffff;
+  padding: 0.2em 0.3em;
+}
+
+.fa-instagram {
+  color: #ffffff;
   background: rgb(88, 88, 88);
   padding: 0.2em 0.3em;
-  }  
+}
 
-.fa-twitter{
-	background: #1DA1F2;
-	color: #FFFFFF;
-    padding: 0.2em 0.25em;
-	}
+.fa-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+  padding: 0.2em 0.25em;
+}
 
-.fa-yelp{
-	background: #bb0000;;
-	color: #FFFFFF;
-    padding: 0.2em 0.3em;
-	}
+.fa-yelp {
+  background: #bb0000;
+  color: #ffffff;
+  padding: 0.2em 0.3em;
+}
 
-.fa-facebook{
-	background: #3B5998;
-	color: #FFFFFF;
-    padding: 0.2em 0.4em;
-	}
+.fa-facebook {
+  background: #3b5998;
+  color: #ffffff;
+  padding: 0.2em 0.4em;
+}
 
-.fa-youtube-play{
-	background: #bb0000;
-	color: #FFFFFF;
-    padding: 0.2em 0.2em;
-  
-	}
-    
-   .longLine {
-    margin-left: 250px;
-    margin-right: 250px;
-   }
+.fa-youtube-play {
+  background: #bb0000;
+  color: #ffffff;
+  padding: 0.2em 0.2em;
+}
 
-   .footerCounty {
-    font-size: small;
-    font-weight: bold;
-    color: #444;
-    font-family: OpenSans-Semibold;
-   }
+.longLine {
+  margin-left: 250px;
+  margin-right: 250px;
+}
 
-   .footerPhone {
-    font-size: small;
-    text-decoration: underline;
-    margin-top: -10px;
-    color: #444;
-    font-family: OpenSans-Regular;
-   }
+.footerCounty {
+  font-size: small;
+  font-weight: bold;
+  color: #444;
+  font-family: OpenSans-Semibold;
+}
 
-   .footerContact {
-    text-align: center;
-    font-family: OpenSans-Regular;
-   }
+.footerPhone {
+  font-size: small;
+  text-decoration: underline;
+  margin-top: -10px;
+  color: #444;
+  font-family: OpenSans-Regular;
+}
 
-   .footRow {
-    margin-left: 180px;
-    margin-right: 180px;
-   }
+.footerContact {
+  text-align: center;
+  font-family: OpenSans-Regular;
+}
 
-
-
-
-
+.footRow {
+  margin-left: 180px;
+  margin-right: 180px;
+}
