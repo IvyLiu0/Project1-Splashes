@@ -1,3 +1,48 @@
+@font-face {
+  font-family: OpenSans-Bold-Italic;
+  src: url(Fonts/open-sans/Open\ Sans\ Bold\ Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(Fonts/open-sans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(Fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light-Italic;
+  src: url(Fonts/open-sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(Fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(Fonts/open-sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold-Italic;
+  src: url(Fonts/open-sans/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+  font-family: BodoniModa-Italic;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: BodoniModa;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: Henny-Penny;
+  src: url(Fonts/Henny-Penny/HennyPenny-Regular.ttf);
+}
+@font-face {
+  font-family: Snowburst;
+  src: url(Fonts/Snowburst_One/SnowburstOne-Regular.ttf);
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------*/
 /*ONLY ADULT*/
 .adultSwimmer {
@@ -6,9 +51,10 @@
   height: auto;
   max-width: 100%;
   background-size: cover;
+  background-position: center;
 }
 .adultProgram_heading {
-  position: absolute;
+  padding-top: 350px;
   text-align: center;
   width: 100%;
   top: 50%;
@@ -19,9 +65,10 @@
 }
 .adultProgram_body {
   font-family: OpenSans-Regular;
-  font-size: small;
+  font-size: medium;
   position: relative;
-  margin: 0 50px 0 50px;
+  font-weight: 150;
+  padding: 0 100px;
 }
 .adulth1 {
   text-align: center;
@@ -31,7 +78,7 @@
 }
 span p {
   font-family: OpenSans-Semibold;
-  font-weight: bolder;
+  font-weight: 500;
 }
 span ul {
   padding: 0px;
@@ -43,19 +90,20 @@ li {
 li a {
   color: #03b1f4;
 }
-/*ONLY ADULT*/
+
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
-/*ONLY lOCATIONS*/
+/*ONLY CONTACT*/
 .locationsback {
   background: no-repeat url(images/contact-hero.jpeg);
   min-height: 600px;
   height: auto;
   max-width: 100%;
   background-size: cover;
+  background-position: center;
 }
 .locationsheading {
-  position: absolute;
+  padding-top: 350px;
   text-align: center;
   width: 100%;
   top: 50%;
@@ -71,11 +119,15 @@ li a {
 .locationsParagraph {
   text-align: center;
   font-family: OpenSans-Regular;
-  font-size: small;
+  font-size: medium;
+  font-weight: 150;
 }
 
-.contactGallery {
-  padding-left: 10px;
+.contactGallery{
+  margin: 10px 150px;
+}
+.contactGallery .cuadrados{
+  margin-top: 20px;
 }
 .contactGallery a {
   color: #03b1f4;
