@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  min-height: 500px;
   height: 100%;
   text-align: center;
   color: rgb(235, 228, 228);
@@ -86,7 +87,7 @@ h1 {
 }
 
 #swimlessons section,
-#swimprograms section {
+#swimprograms section, #about section{
   margin: 0 5%;
 }
 
@@ -95,12 +96,12 @@ h1 {
   margin-top: 5%;
 }
 
-.link {
+#swimlessons .link {
   text-decoration: underline;
   color: #03b1f4;
 }
 
-.link:hover {
+#swimlessons .link:hover {
   cursor: pointer;
 }
 
@@ -125,6 +126,7 @@ h1 {
 .lesson-type-box{
   margin-top: -2%;
 }
+
 #swimprograms h5 {
   margin-bottom: 5%;
 }
@@ -617,7 +619,7 @@ button.signUpBtn {
   /* margin-right: 300px; */
 }
 
-/* Footer */
+/*Footer */
 footer {
   background: no-repeat url(images/footer-bg.jpeg);
   min-height: 500px;
@@ -747,6 +749,8 @@ footer li a {
   margin-left: 180px;
   margin-right: 180px;
 }
+
+
 
 @media (max-width: 1199px) {
   .main-menu ul li {
