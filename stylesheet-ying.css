@@ -13,7 +13,7 @@
   color: rgb(235, 228, 228);
 }
 
-.aboutText {
+.aboutText, .swimlesson-head h1 {
   padding-top: 15%;
   padding-bottom: 15%;
   font-family: "Bodoni Moda", serif;
@@ -71,6 +71,7 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
+  min-height: 650px;
   /* overflow:hidden; */
   height: 100%;
   /* padding-top: 12%; */
@@ -93,6 +94,10 @@ h1 {
 #swimprograms section {
   margin: 0 5%;
 }
+
+
+
+
 
 #swimlessons h3 {
   margin-top: 5%;
