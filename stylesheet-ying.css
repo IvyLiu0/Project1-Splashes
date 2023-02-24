@@ -1,20 +1,64 @@
+@font-face {
+  font-family: OpenSans-Bold-Italic;
+  src: url(Fonts/open-sans/Open\ Sans\ Bold\ Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(Fonts/open-sans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(Fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light-Italic;
+  src: url(Fonts/open-sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(Fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(Fonts/open-sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold-Italic;
+  src: url(Fonts/open-sans/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+  font-family: BodoniModa-Italic;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: BodoniModa;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: Henny-Penny;
+  src: url(Fonts/Henny-Penny/HennyPenny-Regular.ttf);
+}
+@font-face {
+  font-family: Snowburst;
+  src: url(Fonts/Snowburst_One/SnowburstOne-Regular.ttf);
+}
+
+
 /*About Page*/
 .about-head {
   background-image: url("images/about-us-hero.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
   min-height: 500px;
-  height: 100%;
-  text-align: center;
-  color: rgb(235, 228, 228);
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .aboutText, .swimlesson-head h1 {
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 250px;
   font-family: "Bodoni Moda", serif;
   color: #fff;
+  text-align: center;
 }
 
 .goodjob {
@@ -67,13 +111,11 @@ h1 {
 /*Swim Lessons Page*/
 .swimlesson-head {
   background-image: url("images/which-lesson-is-best.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  min-height: 650px;
-  height: 100%;
-  text-align: center;
-  color: rgb(235, 228, 228);
+  min-height: 500px;
+  height: auto;
+  width: 100%;
+  background-position:center;
+  background-size: cover;
 }
 
 .secondary-title {
@@ -81,9 +123,8 @@ h1 {
 }
 
 .lesson-type-box {
-  margin-top: -4%;
+  padding-top: 100px;
   text-align: center;
-  margin-bottom: 3%;
 }
 
 #swimlessons section,
@@ -109,18 +150,17 @@ h1 {
 
 .swimprogram-head {
   background-image: url("images/summer-swim-camps.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  height: 100%;
-  color: white;
-  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
-  text-align: center;
+  min-height: 500px;
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .swimprogram-head h1 {
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 250px;
+  text-align: center;
+  color: #fff;
 }
 
 .lesson-type-box{

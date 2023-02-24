@@ -1,0 +1,135 @@
+@font-face {
+    font-family: OpenSans-Bold-Italic;
+    src: url(Fonts/open-sans/Open\ Sans\ Bold\ Italic.ttf);
+}
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(Fonts/open-sans/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(Fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light-Italic;
+    src: url(Fonts/open-sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(Fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url(Fonts/open-sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Semibold-Italic;
+    src: url(Fonts/open-sans/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+    font-family: BodoniModa-Italic;
+    src: url(Fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: BodoniModa;
+    src: url(Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Henny-Penny;
+    src: url(Fonts/Henny-Penny/HennyPenny-Regular.ttf);
+}
+@font-face {
+    font-family: Snowburst;
+    src: url(Fonts/Snowburst_One/SnowburstOne-Regular.ttf);
+}
+
+.signinLogo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form{
+    margin: 0 auto;
+}
+
+.signinForm {
+    margin-top: 50px;
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.singinImage {
+    position:absolute;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
+.signinForm h2 {
+    font-family: OpenSans-Semibold ;
+    color: #444;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signinForm label{
+    color: rgb(212, 0, 0);
+    font-family: OpenSans-Regular;
+    font-size:medium;
+    margin-top: 20px;
+}
+
+.emailPhone {
+    margin: 0 50px;
+}
+
+.emailPhone input {
+    background-color: rgb(240, 240, 240);
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.formForgot {
+    color: #03B1F4;
+    font-family: OpenSans-Regular;
+    margin-top: 15px;
+    margin-right:50px;;
+    float: right;
+    text-decoration: underline;
+}
+
+.signBtns {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.signInBtn {
+    background-color: #03B1F4;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 85px;
+    margin-right: 10px;
+    line-height: 15px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: #03B1F4;
+}
+
+.signUpBtn {
+    background-color: #fff;
+    color: #03B1F4;
+    font-weight: bold;
+    padding: 10px 85px;
+    margin-left: 10px;
+    line-height: 15px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: #03B1F4;
+}
+
+.signInBtn:hover{
+    color: #fff;
+}
+
+.signUpBtn:hover{
+    color: #03B1F4;
+}

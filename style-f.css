@@ -47,22 +47,20 @@
 /*ONLY ADULT*/
 .adultSwimmer {
   background: no-repeat url(images/lap-swimming.jpeg);
-  min-height: 600px;
+  min-height: 500px;
   height: auto;
-  max-width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-.adultProgram_heading {
-  padding-top: 350px;
-  text-align: center;
   width: 100%;
-  top: 50%;
-  font-family: BodoniModa;
-  font-weight: bold;
-  font-size: 48px;
-  color: white;
+  background-position:center;
+  background-size: cover;
 }
+.adultProgram_heading{
+  padding-top: 250px;
+  font-family: Bodoni Moda;
+  color: #fff;
+  font-weight: 1000;
+  text-align: center;
+}
+
 .adultProgram_body {
   font-family: OpenSans-Regular;
   font-size: medium;
@@ -80,14 +78,13 @@ span p {
   font-family: OpenSans-Semibold;
   font-weight: 500;
 }
-span ul {
-  padding: 0px;
-}
-li {
+
+.lapSwimming li {
   list-style: none;
   text-decoration: underline;
+  margin-left: -35px;
 }
-li a {
+.lapSwimming li a {
   color: #03b1f4;
 }
 
@@ -96,17 +93,15 @@ li a {
 /*ONLY CONTACT*/
 .locationsback {
   background: no-repeat url(images/contact-hero.jpeg);
-  min-height: 600px;
+  min-height: 500px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
+  background-position:center;
   background-size: cover;
-  background-position: center;
 }
 .locationsheading {
-  padding-top: 350px;
+  padding-top: 250px;
   text-align: center;
-  width: 100%;
-  top: 50%;
   font-family: BodoniModa;
   font-weight: bold;
   font-size: 48px;

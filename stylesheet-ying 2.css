@@ -1,0 +1,824 @@
+/*About Page*/
+.about-head {
+  background-image: url("images/about-us-hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  min-height: 500px;
+  height: 100%;
+  text-align: center;
+  color: rgb(235, 228, 228);
+}
+
+.aboutText, .swimlesson-head h1 {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  font-family: "Bodoni Moda", serif;
+  color: #fff;
+}
+
+.goodjob {
+  background-image: url("images/about-we-do-a-pretty-good-job-bg.jpeg");
+}
+
+.philosophy {
+  background-image: url("images/about-our-philosophy-bg.jpeg");
+}
+
+.philosophy,
+.goodjob {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+  min-height: 500px;
+  padding-top: 12%;
+  margin: 0 10px;
+  text-align: center;
+  color: #444444;
+}
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+}
+
+.philosophy p,
+.philosophy h1,
+.goodjob p,
+.goodjob h1 {
+  width: 60%;
+  margin: 0 auto 3% auto;
+  padding: 10px;
+}
+
+.goodjob div {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  text-align: center;
+}
+
+#about p {
+  color: #757576;
+}
+
+
+
+
+/*Swim Lessons Page*/
+.swimlesson-head {
+  background-image: url("images/which-lesson-is-best.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  min-height: 650px;
+  height: 100%;
+  text-align: center;
+  color: rgb(235, 228, 228);
+}
+
+.secondary-title {
+  color: rgb(46, 45, 45);
+}
+
+.lesson-type-box {
+  margin-top: -4%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#swimlessons section,
+#swimprograms section, #about section{
+  margin: 0 5%;
+}
+
+
+#swimlessons h3 {
+  margin-top: 5%;
+}
+
+#swimlessons .link {
+  text-decoration: underline;
+  color: #03b1f4;
+}
+
+#swimlessons .link:hover {
+  cursor: pointer;
+}
+
+/*Swim Programs Page*/
+
+.swimprogram-head {
+  background-image: url("images/summer-swim-camps.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+  color: white;
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+  text-align: center;
+}
+
+.swimprogram-head h1 {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.lesson-type-box{
+  margin-top: -2%;
+}
+
+#swimprograms h5 {
+  margin-bottom: 5%;
+}
+
+.swimprogram-li li {
+  list-style: none;
+  margin: 1%;
+}
+
+
+@font-face {
+  font-family: OpenSans-Bold-Italic;
+  src: url(Fonts/open-sans/Open\ Sans\ Bold\ Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(Fonts/open-sans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(Fonts/open-sans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light-Italic;
+  src: url(Fonts/open-sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(Fonts/open-sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(Fonts/open-sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold-Italic;
+  src: url(Fonts/open-sans/OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+  font-family: BodoniModa-Italic;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: BodoniModa;
+  src: url(Fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\wght.ttf);
+}
+@font-face {
+  font-family: Henny-Penny;
+  src: url(Fonts/Henny-Penny/HennyPenny-Regular.ttf);
+}
+@font-face {
+  font-family: Snowburst;
+  src: url(Fonts/Snowburst_One/SnowburstOne-Regular.ttf);
+}
+
+/*header*/
+.main-header {
+  background-color: #1a2e38;
+  /* margin: 2em auto 0 auto; */
+  min-height: 100px;
+}
+
+/*navigaiton*/
+.main-menu {
+  font-weight: 400;
+  color: #fff;
+}
+
+.main-menu ul li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-family: OpenSans-Semibold;
+}
+
+.img-fluid {
+  margin-left: 10px;
+}
+
+.main-menu .nav-button {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  font-family: OpenSans-Semibold;
+  text-decoration: none;
+  color: #03b1f4;
+  font-weight: bold;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+.main-menu ul li a:hover {
+  color: orange !important;
+}
+
+.main-menu ul li:active {
+  color: orange !important;
+  border: none;
+}
+
+.main-menu ul li:active a {
+  color: #fff;
+}
+
+.navbar-toggler {
+  width: 55px;
+  height: 55px;
+  border: none;
+}
+
+.navbar-toggler .line1 {
+  width: 80%;
+  float: left;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 8px;
+}
+
+.navbar-toggler .line2 {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 8px;
+}
+
+.navbar-toggler .line3 {
+  width: 50%;
+  float: left;
+  height: 3px;
+  background-color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .line1,
+.navbar-toggler[aria-expanded="true"] .line2 {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: orange;
+  margin-bottom: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .line3 {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: orange;
+}
+
+/* Sign In Modal*/
+.signinLogo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.singinImage {
+  position: absolute;
+  margin-left: -82px;
+  margin-top: -30px;
+}
+
+.modal-title h2 {
+  font-family: OpenSans-Semibold;
+  color: #444;
+  /* text-align: center !important; */
+  margin-top: 10px;
+  /* margin-left: 150px; */
+}
+
+.modal-title {
+  margin: 0 auto;
+}
+
+.close {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.emailPhone label {
+  color: rgb(212, 0, 0);
+  font-family: OpenSans-Regular;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.emailPhone {
+  margin: 0 10px;
+}
+
+.emailPhone input {
+  background-color: rgb(240, 240, 240);
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.formForgot {
+  color: #03b1f4;
+  font-family: OpenSans-Regular;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-right: 15px;
+  float: right;
+  text-decoration: underline;
+}
+
+.signBtns {
+  text-align: center;
+  margin-top: 100px;
+}
+
+button.signInBtn {
+  background-color: #03b0f473;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 85px;
+  margin-right: 5px;
+  line-height: 12px;
+  font-size: 15px;
+  border-radius: 50px;
+  /* border-color: #03B1F4; */
+}
+
+button.signUpBtn {
+  background-color: rgb(255, 255, 255);
+  color: #03b1f4;
+  font-weight: bold;
+  padding: 10px 85px;
+  margin-left: 5px;
+  line-height: 12px;
+  font-size: 15px;
+  border-radius: 50px;
+  border-color: #03b1f4;
+}
+
+.signInBtn:hover {
+  color: #0077b5;
+}
+
+.signUpBtn:hover {
+  color: #0077b5;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.modal {
+  background: white;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+/* Locations dropdown*/
+.locations {
+  font-size: 25px;
+  color: #1a2e38;
+  font-family: OpenSans-Semibold;
+}
+
+.county {
+  font-size: 18px;
+  color: black;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: OpenSans-Semibold;
+}
+
+.places {
+  font-size: 15px;
+  color: #03b1f4;
+  padding-left: 20px;
+  margin-top: -15px;
+  font-family: OpenSans-Regular;
+}
+
+/* Home Main Area */
+.homeBabyImage {
+  background: no-repeat url(images/home.jpeg);
+  min-height: 650px;
+  height: auto;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeBabyText h1 {
+  font-family: BodoniModa;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 800;
+  padding-top: 200px;
+}
+
+.videoBtns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.videoBtn {
+  background-color: #fff;
+  color: #03b1f4;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 10px 10px;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+}
+
+.videoBtn:hover {
+  color: #0077b5;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 50px;
+}
+
+.teachingImage {
+  background: no-repeat url(images/home-hands-on-teaching.jpeg);
+  min-height: 600px;
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  background-size: cover;
+}
+
+.teachingText {
+  float: left;
+  padding-top: 35px;
+  padding-left: 200px;
+  width: 600px;
+}
+
+.teachingText h2 {
+  font-family: BodoniModa;
+  font-weight: 800;
+}
+
+.teachingText p {
+  font-family: OpenSans-Regular;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.teachingText h3 {
+  font-family: OpenSans-bold;
+  font-size: small;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.teachingText ul {
+  font-family: OpenSans-regular;
+  font-size: small;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.teachingText span {
+  font-family: OpenSans-regular;
+  font-size: small;
+}
+
+.teachingBtn {
+  font-family: OpenSans-Semibold;
+  font-size: small;
+  margin-top: 20px;
+  background-color: #03b1f4;
+  color: #fff;
+  padding: 10px 20px;
+  line-height: 10px;
+  border-radius: 50px;
+  border: none;
+}
+
+.locationImage {
+  background: no-repeat url(images/home-our-locations-bg.jpeg);
+  background-position: center;
+  min-height: 500px;
+  height: auto;
+  width: 100%;
+  margin-left: 1px;
+  background-size: cover;
+}
+
+.locationText {
+  /* float: left; */
+  padding: 0px 150px;
+  color: white;
+}
+
+.locationText h2 {
+  font-family: BodoniModa;
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.locationText h3 {
+  font-family: BodoniModa;
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.locationText p {
+  font-family: OpenSans-regular;
+  font-size: medium;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* .locationText button {
+  margin-left: 130px;
+} */
+
+.locationBtns {
+  text-align: center;
+}
+
+.locationBtn {
+  font-family: OpenSans-Semibold;
+  font-size: small;
+  margin-top: 20px;
+  background-color: #03b1f4;
+  color: #fff;
+  padding: 10px 20px;
+  line-height: 10px;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 80px;
+}
+
+/* Award */
+.awardText {
+  margin-top: 80px;
+}
+
+.awardText h1 {
+  text-align: center;
+  font-family: BodoniModa;
+  font-weight: 1000;
+  font-size: 50px;
+  color: #444;
+}
+
+.award {
+  display: inline;
+  text-align: center;
+  padding: 3px 0;
+}
+
+#awards {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  /* margin-left: 300px; */
+  /* margin-right: 300px; */
+}
+
+/*Footer */
+footer {
+  background: no-repeat url(images/footer-bg.jpeg);
+  min-height: 500px;
+  height: auto;
+  width: 100%;
+  background-position: top;
+  position: center;
+  background-size: cover;
+}
+
+.footerImage {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.footerNav {
+  text-align: center;
+  margin-top: 30px;
+  float: left;
+  font-family: OpenSans-Semibold;
+}
+
+.social {
+  text-align: center;
+  margin-top: 30px;
+  float: right;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 40px;
+  float: right;
+  font-family: OpenSans-Regular;
+}
+
+.copy p {
+  font-size: small;
+  font-family: OpenSans-Regular;
+}
+
+.copy p:last-child {
+  margin-top: -15px;
+}
+
+footer li {
+  display: inline;
+  padding-left: 10px;
+}
+
+footer li a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: small;
+  color: #444;
+  font-family: OpenSans-Semibold;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: 0.15em;
+  font-size: 1.5em;
+}
+
+.fa-linkedin {
+  background: #0077b5;
+  color: #ffffff;
+  padding: 0.2em 0.3em;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  background: rgb(88, 88, 88);
+  padding: 0.2em 0.3em;
+}
+
+.fa-twitter {
+  background: #1da1f2;
+  color: #ffffff;
+  padding: 0.2em 0.25em;
+}
+
+.fa-yelp {
+  background: #bb0000;
+  color: #ffffff;
+  padding: 0.2em 0.3em;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: #ffffff;
+  padding: 0.2em 0.4em;
+}
+
+.fa-youtube-play {
+  background: #bb0000;
+  color: #ffffff;
+  padding: 0.2em 0.2em;
+}
+
+.longLine {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.footerCounty {
+  font-size: small;
+  font-weight: bold;
+  color: #444;
+  font-family: OpenSans-Semibold;
+}
+
+.footerPhone {
+  font-size: small;
+  text-decoration: underline;
+  margin-top: -10px;
+  color: #444;
+  font-family: OpenSans-Regular;
+}
+
+.footerContact {
+  text-align: center;
+  font-family: OpenSans-Regular;
+}
+
+.footRow {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+
+
+@media (max-width: 1199px) {
+  .main-menu ul li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: OpenSans-Semibold;
+  }
+
+  .main-menu .nav-button {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    line-height: 30px;
+    width: 95%;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    font-family: OpenSans-Semibold;
+    color: #03b1f4;
+  }
+
+  .longLine {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .teachingImage {
+    background-image: none;
+  }
+
+  .locationMap img {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dropdown-menu {
+    width: 1200px;
+    margin-left: -800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .signInBtn {
+    background-color: #03b0f473;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 203px;
+    line-height: 12px;
+    font-size: 15px;
+    border-radius: 50px;
+    /* border-color: #03B1F4; */
+  }
+
+  .signUpBtn {
+    background-color: rgb(255, 255, 255);
+    color: #03b1f4;
+    font-weight: bold;
+    padding: 10px 200px;
+    line-height: 12px;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: #03b1f4;
+  }
+}
