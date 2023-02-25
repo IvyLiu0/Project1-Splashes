@@ -72,7 +72,8 @@
   text-align: center;
   font-family:"Bodoni Moda", serif;
   font-weight: bold;
-  font-size: 48px;
+  margin-top: 20px;
+  font-size: 40px;
 }
 span p {
   font-family: OpenSans-Semibold;
@@ -81,7 +82,7 @@ span p {
 
 .lapSwimming li {
   list-style: none;
-  text-decoration: underline;
+  text-decoration: underline #03b1f4;
   margin-left: -35px;
 }
 .lapSwimming li a {
