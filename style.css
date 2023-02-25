@@ -460,8 +460,8 @@
 
 .awardText h1 {
   text-align: center;
-  font-family: BodoniModa;
-  font-weight: 1000;
+  font-family: BodoniModa !important;
+  font-weight: 1000px !important;
   font-size: 50px;
   color: #444;
 }
