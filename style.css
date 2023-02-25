@@ -680,4 +680,12 @@ footer li a {
     border-radius: 50px;
     border-color: #03b1f4;
   }
+
+  .teachingText {
+  float: left;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: -100px;
+  width: 600px;
+}
 }
