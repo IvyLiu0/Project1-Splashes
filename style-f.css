@@ -140,3 +140,24 @@ span p {
   justify-content: center;
   text-align: center;
 }
+
+
+/*- Icon updates -*/
+.iconsBox {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.icon{
+  padding: 15px;
+  box-shadow: 0px 0px 2px 2px rgba(187, 185, 185, 0.3)
+}
+
+.iconText {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: small;
+  color: #03b1f4;
+  text-decoration: underline;
+}
