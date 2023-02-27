@@ -22,6 +22,8 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet" />
 
@@ -264,30 +266,17 @@
 
       <div class="row">
         <div class="teachingImage">
-          <div class="col-12 col-xl-6 teachingText">
-            <h2>Hands On Teaching</h2>
-            <p>
-              Splashes Aquatics Swim School provides high quality swim
-              instruction and the ideal environment for learning how to swim.
-              Our swim instructors use specialized “muscle memory” teaching
-              techniques that help our students progress at a quick rate.
-              Grouped by age and ability, our students benefit from swim classes
-              that offer personalized attention. It's never too late to learn to
-              swim!
-            </p>
-            <h3>Splashes Offers:</h3>
+          <div class="col-12 col-xl-6 teachingText" id="teachingText">
+            <h2>{{ teachingHeading }}</h2>
+            <p>{{ teachingDes }}</p>
+            <h3>{{ teachingHead }}</h3>
             <ul>
-              <li>Private Swimming Lessons - All Locations</li>
-              <li>Semi-Private Swimming Lessons - All Locations</li>
-              <li>Parent & Me (baby) Swimming Lessons - Select Locations</li>
+              <li>{{ teachingLi1 }}</li>
+              <li>{{ teachingLi2 }}</li>
+              <li>{{ teachingLi3 }}</li>
             </ul>
-            <p>
-              Select locations also offer additional swim programs such as swim
-              competitions, swim teams, water aerobics, aquatic therapy, swim
-              camps and more! To learn more about the Splashes Family Swim
-              School near you, select a location below.
-            </p>
-            <span>Ready to sign up?</span><br />
+            <p>{{ teachingDes1 }}</p>
+            <span>{{ teachingSignup }}</span><br />
             <div class="locationBtns">
               <button class="teachingBtn">REGISTER NOW</button>
             </div>
@@ -296,13 +285,10 @@
       </div>
 
       <div class="row locationImage">
-        <div class="col-12 col-xl-7 locationText">
-          <h2>Find a Splashes Swim School near you</h2>
-          <h3>Family Swim School <br />Locations</h3>
-          <p>
-            Splashes Aquatics offers the finest professional swimming lessons
-            from 21 swim schools and aquatic centers in California and Denver.
-          </p>
+        <div class="col-12 col-xl-7 locationText" id="locationText">
+          <h2>{{ locationHeading }}</h2>
+          <h3>{{ locationHead }} <br />{{ locationHead1 }}</h3>
+          <p>{{ locationDes }}</p>
           <div class="locationBtns">
             <button class="locationBtn">Find a Location Near You</button>
           </div>
@@ -501,4 +487,5 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script src="js/sponsors.js"></script>
+  <script src="js/data_text.js"></script>
 </html>
